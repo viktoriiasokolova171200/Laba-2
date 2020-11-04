@@ -1,0 +1,156 @@
+h4 {color:magenta;}
+.one, .two, .three {
+    width: 200px;
+    height: 200px;
+}
+
+.one{
+    background-color: rgb(14, 118, 150);
+    position: absolute;
+    top: 0;
+    left: o;
+}
+
+.two{
+    background-color: rgb(84, 146, 238);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.three{
+    background-color:rgb(37, 183, 194);
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+}
+
+#border{
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    height: 500px;
+    position: relative;
+}
+
+#first_element { 
+    position: relative; 
+    left: 30px; 
+    top: 70px; 
+    width: 500px; 
+    height: 100px;
+    background-color: #fafafa; 
+    border: solid 3px #ff47f0; 
+    font-size: 24px; 
+    text-align: center; 
+  } 
+  #second_element { 
+    position: relative; 
+    width: 500px; 
+    height: 100px;
+    background-color: #fafafa; 
+    border: solid 3px #ff4784; 
+    font-size: 24px; 
+    text-align: center; 
+  }
+  
+#border2{
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    height: 300px;
+    position: relative;
+}
+
+#incut
+{
+  float:right;
+  width:15em;
+  padding:10px;
+  margin:0 0 10px 10px;
+  border:1px solid #638F7B;
+  background:#dcbcdf;
+  font-family:"Trebuchet MS",sans-serif;
+}
+ 
+#border3{
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    height: 300px;
+    position: relative;
+}
+
+#border4{
+    width: 880px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    height: 120px;
+    position: relative;
+}
+
+#border5{
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    height: 150px;
+    position: relative;
+}
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 25px;
+	line-height: 50px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+ 
+.form_radio_btn input[type=radio]:checked + label {
+	background: #eb9be0;
+}
+ 
+.form_toggle {
+	display: inline-block;
+	overflow: hidden;
+}
+.form_toggle-item {
+	float: left;
+	display: inline-block;
+}
+.form_toggle-item input[type=radio] {
+	display: none;
+}
+.form_toggle-item label {
+	display: inline-block;
+	padding: 0px 15px;   
+	line-height: 34px;    
+	border: 1px solid #999;
+	border-right: none;
+	cursor: pointer;
+	user-select: none;   
+}
+ 
+.form_toggle .item-1 label {
+	border-radius: 6px 0 0 6px;
+}
+.form_toggle .item-2 label {
+	border-radius: 0 6px 6px 0;
+	border-right: 1px solid #999;
+}
+ 
+.form_toggle .item-1 input[type=radio]:checked + label {
+	background: #d45757;
+}
+.form_toggle .item-2 input[type=radio]:checked + label {
+	background: #13d613;
+}
+
